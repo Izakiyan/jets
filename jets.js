@@ -14,5 +14,4 @@ var Jet = function (color, size) {
     console.log('rolling!');
   };
 }
-    console.log("Hadas");
 module.exports = Jet;
