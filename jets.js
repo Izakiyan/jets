@@ -4,7 +4,15 @@ var Jet = function (color, size) {
 
   this.fly = function () {
     console.log('whoosh!');
-  }
-}
+  };
 
+  this.takeOff = function () {
+    console.log('lift off!');
+  };
+
+  this.barrelRoll = function () {
+    console.log('rolling!');
+  };
+}
+    console.log("Hadas");
 module.exports = Jet;
